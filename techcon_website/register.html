@@ -41,7 +41,7 @@
         label {
             margin: 10px 0 5px;
         }
-        input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="submit"] {
+        input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
             padding: 10px;
             margin: 5px 0 15px;
             border: 1px solid #ccc;
@@ -53,14 +53,16 @@
             width: auto;
             margin-right: 10px;
         }
-        input[type="submit"] {
+        button[type="submit"] {
             background-color: #4CAF50;
             color: white;
             border: none;
+            padding: 10px;
             cursor: pointer;
             font-size: 16px;
+            border-radius: 4px;
         }
-        input[type="submit"]:hover {
+        button[type="submit"]:hover {
             background-color: #45a049;
         }
         .checkbox-container {
@@ -140,7 +142,7 @@
                 <label for="terms">I agree to the terms and conditions</label>
             </div>
             
-            <input type="submit" value="Register Now">
+            <button type="submit">Register Now</button>
         </form>
     </main>
     <footer>
